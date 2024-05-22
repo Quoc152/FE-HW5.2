@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+    
+  .container-4 {
+    max-width :100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    padding: 63px 0;
+    gap: 30px;
+  }
+  .infor-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .button-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    gap: 10px;
+    white-space: nowrap;
+  }
+    
+  .sign-up-4 {
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 39px;
+    background-color: #03d6f3;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 80px;
+    box-sizing: border-box;
+  }
+    
+  .find-out-4 {
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 39px;
+    background-color: #fff;
+    border: 1px solid #4fd1c5;
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 85px;
+    color: #4fd1c5;
+  }
+    
+  #pic4 {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+  }
+
+  .headline-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    font-size: large;
+    line-height: 1;
+    gap: 10px;
+    padding: 0 60px;
+  }
+
+  .headline-4 h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    white-space: nowrap;
+  }
+
+  .paragraphe-4 {
+    padding: 0 60px;
+  }
+
+  .paragraphe-4 p {
+    margin: 0 auto;
+    overflow: hidden;
+    color: #a0aec0;
+    line-height: 1.5;
+  }
+  
+@media (min-width: 768px) {
+}
+  
+@media (min-width: 1060px) { 
+    .container-4 {
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(2, 1fr); /* Thay đổi từ 3 cột thành 2 cột */
+        grid-template-rows: repeat(2, auto); 
+        padding-left: 50px;
+        gap: 0;
+    }
+      
+    .infor-4 {
+        grid-row: 1;
+        grid-column: 1;
+    }
+      
+    .button-4 {
+        grid-row: 2;
+        grid-column: 1;
+        flex-direction: row;
+    }
+      
+    .pic-4 {
+        grid-row: span 2;
+        grid-column: 2; /* Di chuyển phần tử pic-4 sang cột thứ 2 */
+    }
+    
+    .infor-4 {
+        align-self: flex-end;
+    }
+
+    .headline-4 {
+        font-size: x-large;
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .headline-4 h1 {
+        margin-right: 12px;
+    }
+
+    .headline-4 h1:last-child {
+        margin-right: 0;
+    }
+
+    .paragraphe-4 {
+        margin: 30px 0;
+        padding: 0 170px;
+    }
+    
+    #pic4 {
+        max-width: 900px;
+        width: 100%;
+    }
+
+    .button-4 {
+        align-self: flex-start; 
+    
+    }
+
+    .sign-up-4 {
+        padding: 18px 45px;
+    }
+    
+    .find-out-4 {
+        padding: 18px 55px;
+    }
+}

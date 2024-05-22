@@ -1,0 +1,273 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    background: linear-gradient(230.95deg, #cb1ae8, #37bda6);
+}
+
+#figma {
+    width: 100%;
+    max-width: 190px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    position: relative;
+}
+
+ul {
+    display: none; /* Ẩn menu trên mobile */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #cd1ae890;
+    position: absolute;
+    top: 100%; /* Đặt menu dưới thanh điều hướng */
+    left: 0;
+    text-align: center;
+}
+
+ul li {
+    display: block; /* Hiển thị mỗi phần tử menu trên một dòng */
+    margin: 10px 0;
+}
+
+ul li:hover {
+    background: rgba(204, 204, 204, 0.612);
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+.menu-list{
+    display: flex;
+}
+
+.sign-bt {
+    color: aliceblue;
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+    white-space: nowrap;
+}
+
+.list-icon {
+    display: block; /* Hiển thị icon trên mobile */
+    font-size: 2em;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#list-icon {
+    color: aliceblue;
+    font-size: 40px;
+    padding: 5px;
+}
+
+#list-icon:hover {
+    background: rgba(204, 204, 204, 0.612);
+}
+
+.mobile-dv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.info {
+    margin: 30px 0;
+}
+
+.headline,.first-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.headline p,.first-head p {
+    margin: 0;
+}
+
+.para p {
+    margin: 0;
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(240, 248, 255, 0.845);
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.start-button, .try-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    /* width: 250px;
+    height: 50px; */
+    padding: 15px 80px;
+    border-radius: 30px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.start-button {
+    background-color: aliceblue;
+}
+
+.try-button{
+    color: aliceblue;
+}
+
+#screen {
+    width: 100%; 
+    max-width: 420px;
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    ul {
+        display: flex; /* Hiển thị menu trên desktop */
+        position: static; /* Không đặt menu dưới thanh điều hướng trên desktop */
+        background-color: transparent;
+        width: auto;
+        text-align: left;
+    }
+
+    ul li {
+        display: inline-block; /* Hiển thị các phần tử menu trên một dòng */
+        margin: 0 10px;
+        font-size: 18px;
+    }
+
+    .sign-bt {
+        display: block; /* Hiển thị cả nút Sign up và biểu tượng list-icon trên desktop */
+    }
+
+    .list-icon {
+        display: none;
+    }
+
+    .headline,.first-head {
+        font-size: 55px;
+    }
+
+    .start-button, .try-button {
+        font-size: 18px;
+        white-space: nowrap;
+    }
+
+    .para {
+        display: flex;
+        flex-direction: row;
+        font-size: 17px;
+    }
+    
+    .para p {
+        margin-right: 5px;
+    }
+
+    .para p:last-child {
+        margin-right: 0;
+    }
+
+    #screen {
+        width: 100%;
+        max-width: 523px;
+    }
+
+    .button {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+}
+
+@media (min-width:1060px) {
+    .container{
+        min-height: 100vh;
+    }
+
+    .mobile-dv {
+        gap: 20px;
+    }
+    
+    .info{
+        margin-top: 50px;
+    }
+
+    .headline,.first-head {
+        font-weight: bold;
+    }
+
+    .first-head {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .first-head p {
+        margin-right: 12px;
+    }
+
+    .first-head p:last-child {
+        margin-right: 0;
+    }
+
+    #screen {
+        width: 100%;
+        max-width: 680px;
+    }
+}
+
+/* Checkbox hack for toggle menu on mobile */
+#menu-toggle {
+    display: none;
+}
+
+#menu-toggle:checked + ul {
+    display: block; /* Hiển thị menu khi checkbox được chọn */
+}
