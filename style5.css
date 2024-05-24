@@ -1,7 +1,9 @@
+@import url('global.css');
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family);
 }
   
 .container-5 {
@@ -20,11 +22,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
-  color: #fff;
+  font-size: var(--first-subhead-size);
+  color: var(--light-text);
   position: relative;
-  letter-spacing: 0.2px;
-  font-weight: 500;
+  letter-spacing: var(--letter-spacing);
+  font-weight: var(--third-weight);
   gap: 10px;
   white-space: nowrap;
   cursor: pointer;
@@ -42,32 +44,32 @@ body {
 }
 
 .sign-up-5:hover {
-  background-color: #1ae0fa;
+  background-color: var(--hover-color);
 }
 
 .sign-up-5:active {
-  background-color: #17c7de;
+  background-color: var(--active-color);
 }
   
 .find-out-5 {
   box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
   border-radius: 39px;
-  background-color: #fff;
+  background-color: var(--light-background);
   border: 1px solid #4fd1c5;
   box-sizing: border-box;
   overflow: hidden;
   flex-direction: row;
   align-items: center;
   padding: 25px 68px;
-  color: #4fd1c5;
+  color: var(--primary);
 }
 
 .find-out-5:hover {
-  background-color: #f6f6f6;
+  background-color: var(--hover-color2);
 }
 
 .find-out-5:active {
-  background-color: #dadada;
+  background-color: var(--active-color2);
 }
   
 #pic5 {
@@ -83,12 +85,13 @@ body {
 }
 
 .headline-5 h1 {
-  font-size: 46px;
-font-style: normal;
-font-weight: 500;
-line-height: 57px; /* 123.913% */
-letter-spacing: 0.2px;
-margin: 0;
+  color: var (--first-text);
+  font-size: var(--second-head-size);
+  font-style: var(--font-style);
+  font-weight: var(--third-weight);
+  line-height: var(--first-height); /* 123.913% */
+  letter-spacing: var(--letter-spacing);
+  margin: 0;
 }
   
 .paragraphe-5 p {
@@ -97,12 +100,12 @@ margin: 0;
   text-align: center;
   overflow: hidden;
   padding: 30px 10px;
-  color: #A0AEC0;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 27px; /* 150% */
-  letter-spacing: 0.2px;
+  color: var(--second-text);
+  font-size: var(--para-size);
+  font-style: var(--font-style);
+  font-weight: var(--fourth-weight);
+  line-height: var(--third-height); /* 150% */
+  letter-spacing: var(--letter-spacing);
 }
 
 @media (min-width: 768px) {

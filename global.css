@@ -1,0 +1,57 @@
+:root {
+    /* Font family */
+    --font-family: 'Poppins', sans-serif;
+    --font-family2: 'Roboto', sans-serif;
+
+    /* Font Size */
+    --first-head-size: 55px;
+    --second-head-size: 46px;
+    --third-head-size: 30px;
+    --first-subhead-size: 16px; 
+
+    --para-size: 18px;
+    --link-size: 15px;
+
+    /* Font Weight */
+    --first-weight: 900;
+    --second-weight: 700;
+    --third-weight: 500;
+    --fourth-weight: 400;
+
+    /* Font Style */
+    --font-style: normal;
+
+    /* Line height */
+    --first-height: 57px;
+    --second-height: 33px;
+    --third-height: 27px;
+    --fourth-height: 20px;
+
+    /* Letter Spacing */
+    --letter-spacing: 0.2px;
+
+    /* Background Color */
+    --dark-background: linear-gradient(231deg, #CB1AE8 -0.37%, #37BDA6 100%);
+    --light-background: #FFF;
+    --ul-background: #cd1ae890;
+
+    /* Text Color */
+    --light-text: #FFF;
+    --first-text: #2D3748;
+    --second-text: #A0AEC0;
+    /* Button Color */
+    
+    --primary: #4FD1C5;
+    --secondary: #03D6F3;
+
+    /* Button Color Hover */
+    --ul-hover-color: rgba(204, 204, 204, 0.612);
+    --hover-color: #1ae0fa;
+    --hover-color2: #f6f6f6;
+    --hover-color3: rgb(168, 168, 168);
+
+    /* Button Color Active */
+    --active-color: #17c7de;
+    --active-color2: #dadada;
+    --active-color3: rgb(150, 150, 150);
+}

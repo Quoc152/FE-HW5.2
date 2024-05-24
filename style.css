@@ -1,16 +1,18 @@
+@import url('global.css');
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-family);
     margin: 0;
     padding: 0;
 }
 
 .container {
     width: 100%;
-    background: linear-gradient(230.95deg, #cb1ae8, #37bda6);
+    background: var(--dark-background);
 }
 
 #figma {
@@ -23,7 +25,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    color: white;
+    color: var(--light-text);
     position: relative;
 }
 
@@ -33,7 +35,7 @@ ul {
     padding: 0;
     margin: 0;
     width: 100%;
-    background-color: #cd1ae890;
+    background-color: var(--ul-background);
     position: absolute;
     top: 100%; /* Đặt menu dưới thanh điều hướng */
     left: 0;
@@ -46,11 +48,11 @@ ul li {
 }
 
 ul li:hover {
-    background: rgba(204, 204, 204, 0.612);
+    background: var(--ul-hover-color);
 }
 
 ul li a {
-    color: white;
+    color: var(--light-text);
     text-decoration: none;
     display: block;
     padding: 10px 0;
@@ -61,8 +63,8 @@ ul li a {
 }
 
 .sign-bt {
-    color: aliceblue;
-    border: 1px solid whitesmoke;
+    color: var(--light-text);
+    border: 1px solid var(--light-text);
     border-radius: 30px;
     padding: 15px 30px;
     display: flex;
@@ -74,13 +76,13 @@ ul li a {
 }
 
 .sign-bt:hover {
-    color: rgb(224, 224, 224);
-    border: 1px solid rgb(224, 224, 224);
+    color: var(--hover-color3);
+    border: 1px solid var(--hover-color3);
 }
 
 .sign-bt:active {
-    color: rgb(168, 168, 168);
-    border: 1px solid rgb(168, 168, 168);
+    color: var(--active-color3);
+    border: 1px solid var(--active-color3);
 }
 
 .list-icon {
@@ -95,7 +97,7 @@ ul li a {
 }
 
 #list-icon {
-    color: aliceblue;
+    color: var(--light-text);
     font-size: 40px;
     padding: 5px;
 }
@@ -130,17 +132,23 @@ ul li a {
 }
 
 .headline p,.first-head p {
-    color: aliceblue;
-    font-size: 46px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 57px; /* 123.913% */
-    letter-spacing: 0.2px;
+    color: var(--light-text);
+    font-size: var(--second-head-size);
+    font-style: var(--font-style);
+    font-weight: var(--third-weight);
+    line-height: var(--first-height); 
+    letter-spacing: var(--letter-spacing);
     margin: 0;
 }
 
 .para p {
     margin: 0;
+    color: #E5E5E5;
+    font-size: var(--first-subhead-size);
+    font-style: var(--font-style);
+    font-weight: var(--second-weight);
+    line-height: var(--fourth-height);
+    letter-spacing: var(--letter-spacing);
 }
 
 .para {
@@ -148,8 +156,6 @@ ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #E5E5E5;
-    font-weight: 600;
     margin-top: 15px;
 }
 
@@ -157,16 +163,16 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid whitesmoke;
+    border: 1px solid var(--light-text);
     cursor: pointer;
     padding: 15px 80px;
     border-radius: 30px;
-    font-weight: 500;
+    font-weight: var(--third-weight);
     margin: 15px 0;
 }
 
 .start-button {
-    background-color: aliceblue;
+    background: var(--light-background);
 }
 
 .start-button:hover {
@@ -180,7 +186,7 @@ ul li a {
 }
 
 .try-button{
-    color: aliceblue;
+    color: var(--light-text);
 }
 
 .try-button:hover {
@@ -217,7 +223,7 @@ ul li a {
     ul li {
         display: inline-block; /* Hiển thị các phần tử menu trên một dòng */
         margin: 0 10px;
-        font-size: 18px;
+        font-size: var(--para-size);
     }
 
     .sign-bt {
@@ -229,18 +235,18 @@ ul li a {
     }
 
     .headline,.first-head {
-        font-size: 55px;
+        font-size: var(--first-head-size);
     }
 
     .start-button, .try-button {
-        font-size: 18px;
+        font-size: var(--para-size);
         white-space: nowrap;
     }
 
     .para {
         display: flex;
         flex-direction: row;
-        font-size: 17px;
+        font-size: var(--para-size);
     }
     
     .para p {
@@ -288,11 +294,11 @@ ul li a {
     
     .headline p, .first-head p {
         margin-right: 12px;
-        font-size: 55px;
-        font-style: normal;
-        font-weight: 900;
+        font-size: var(--first-head-size);
+        font-style: var(--font-style);
+        font-weight: var(--first-weight);
         line-height: 65.5px; /* 119.091% */
-        letter-spacing: 0.2px;
+        letter-spacing: var(--letter-spacing);
     }
 
     .first-head p:last-child {
