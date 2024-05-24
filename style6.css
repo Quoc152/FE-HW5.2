@@ -28,12 +28,19 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 30px;
+}
+
+.headline-6 h2 {
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57px; /* 123.913% */
+    letter-spacing: 0.2px;
 }
 
 .para-6 {
     font-size: 20px;
-    color: rgba(136, 136, 136, 0.758);
+    color: #A0AEC0;
 }
 
 #pic6-1, #pic6-2, #pic6-3 {
@@ -44,12 +51,12 @@ body {
 .infor-6 {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 33px;
 }
 
 .block1-6, .block2-6, .block3-6 {
-    border: 1px solid black;
-    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border: 1px solid #DEDEDE;
+    /* box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15); */
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -58,7 +65,7 @@ body {
     padding: 50px;
 }
 
-.bigheadline-bl1-6, .bigheadline-bl2-6, .bigheadline-bl3-6 {
+.bigheadline-bl1-6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,8 +73,20 @@ body {
     padding: 20px 0;
 }
 
+.bigheadline-bl2-6, .bigheadline-bl3-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 0;
+}
+
 .head-bl1-6, .head-bl2-6, .head-bl3-6 {
-    font-size: 35px;
+    font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 33px; /* 110% */
+letter-spacing: 0.1px;  
 }
 
 .head-bl1-6 h3, .head-bl2-6 h3, .head-bl3-6 h3 {
@@ -75,8 +94,12 @@ body {
 }
 
 .smhead-bl1-6, .smhead-bl2-6, .smhead-bl3-6 {
-    font-size: 20px;
-    color: rgba(136, 136, 136, 0.758);
+    color: #A0AEC0;
+    font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px; /* 150% */
+letter-spacing: 0.1px;
 }
 
 .smhead-bl2-6 {
@@ -91,35 +114,62 @@ body {
 
 .numberprice-6 {
     font-size: 40px;
-    color: rgb(107, 223, 184);
+    font-style: normal;
+    font-weight: 900;
+    line-height: 65.5px; /* 119.091% */
+    letter-spacing: 0.2px;
+    color: #4FD1C5;
 }
 
 .icon-6 {
     font-size: 30px;
-    color: rgb(107, 223, 184);
+    color: #4FD1C5;
 }
 
 .infordollar-6 {
-    color: rgba(136, 136, 136, 0.758);
+    color: #A0AEC0;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 150% */
+    letter-spacing: 0.1px;
 }
 
 .para-bl1-6, .para-bl2-6, .para-bl3-6 {
     text-align: center;
     gap: 60px;
-    font-size: 20px;
+    font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 180% */
+letter-spacing: 0.2px;
+}
+
+.efp-bl-6 {
+    color: #A0AEC0;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 180% */
+    letter-spacing: 0.2px;
 }
 
 .button-bl1-6, .button-bl2-6, .button-bl3-6 {
-    color: whitesmoke;
+    color: #FFF;
     box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
     border-radius: 39px;
     background-color: #03d6f3;
     overflow: hidden;
     flex-direction: row;
     align-items: center;
-    padding: 20px 90px;
+    padding: 18px 90px;
     box-sizing: border-box;
     margin: 20px 0;
+    cursor: pointer;
+}
+
+.button-bl1-6:hover, .button-bl2-6:hover, .button-bl3-6:hover{
+    background-color: #1ae0fa;
 }
 
 @media (min-width: 1060px) {

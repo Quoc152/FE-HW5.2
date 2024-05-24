@@ -23,19 +23,33 @@ body {
     margin: 0 auto; 
 }
 
-.headline-7, .para1-7, .info-7 {
+.headline-7 {   
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    margin: 5px;
+}
+
+.para1-7, .info-7 {
     margin: 25px;
 }
 
 .para1-7 {
-    color: rgb(195, 195, 195);
+    color: #A0AEC0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    letter-spacing: 0.2px;  
 }
 
 .email-input-7 {
-    background-color: whitesmoke;
-    border: 1px solid #ccc;
+    background: #EFEFEF;
+    border: 1px solid #D0D0D0;
     font-size: small;
-    border-radius: 5px;
+    border-radius: 6px;
     padding: 20px 100px;
 }
 
@@ -51,15 +65,24 @@ body {
 
 
 .button-sup-7 {
-    color: rgba(249, 249, 249, 0.973);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EFEFEF;
     background-color: #03d6f3;
-    font-size: small;   
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.2px; 
     border-radius: 5px;
     padding: 20px 100px;
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
 .button-sup-7:hover {
-    background-color: #18c0d6;;
+    background-color: #1ae0fa;
 }
 
 .main2-7 {
@@ -115,9 +138,14 @@ body {
     gap: 20px;
 }
 
+.number-7 a {
+    color: rgba(249, 249, 249, 0.973);
+}
+
 .local-text-7, .number-7, .facebook-7, .in-7 {
     margin-left: 20px;
 }
+
 i {
     font-size: 30px;
 }
@@ -132,9 +160,18 @@ i {
     gap: 10px;
 }
 
+#twitter, #facebook, #intar {
+    cursor: pointer;
+}
+
 @media (min-width:1060px) {
-    .headline-7 {
-        font-size: 40px;    
+    .para1-7 {
+        margin: 10px 10px 50px 10px;
+    }
+
+    .email-input-7 {
+        font-size: 20px;
+        padding: 15px 40px;
     }
 
     .button-sup-7 {

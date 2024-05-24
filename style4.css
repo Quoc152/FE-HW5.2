@@ -24,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     font-size: 16px;
     color: #fff;
     position: relative;
@@ -32,6 +32,7 @@ body {
     font-weight: 500;
     gap: 10px;
     white-space: nowrap;
+    cursor: pointer;
   }
     
   .sign-up-4 {
@@ -43,6 +44,10 @@ body {
     align-items: center;
     padding: 15px 80px;
     box-sizing: border-box;
+  }
+
+  .sign-up-4:hover {
+    background-color: #1ae0fa;
   }
     
   .find-out-4 {
@@ -57,6 +62,10 @@ body {
     padding: 15px 85px;
     color: #4fd1c5;
   }
+
+  .find-out-4:hover {
+    background-color: #f6f6f6;
+  }
     
   #pic4 {
     max-width: 400px;
@@ -69,7 +78,6 @@ body {
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
-    font-size: large;
     line-height: 1;
     gap: 10px;
     padding: 0 60px;
@@ -79,6 +87,11 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     white-space: nowrap;
+    font-size: 46px;
+font-style: normal;
+font-weight: 500;
+line-height: 57px; /* 123.913% */
+letter-spacing: 0.2px;
   }
 
   .paragraphe-4 {
@@ -88,8 +101,12 @@ body {
   .paragraphe-4 p {
     margin: 0 auto;
     overflow: hidden;
-    color: #a0aec0;
-    line-height: 1.5;
+    color: #A0AEC0;
+    font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 125% */
+letter-spacing: 0.2px;  
   }
   
 @media (min-width: 768px) {

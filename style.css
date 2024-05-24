@@ -70,6 +70,7 @@ ul li a {
     align-items: center;
     margin-right: 35px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .list-icon {
@@ -140,8 +141,7 @@ ul li a {
     justify-content: center;
     align-items: center;
     border: 1px solid whitesmoke;
-    /* width: 250px;
-    height: 50px; */
+    cursor: pointer;
     padding: 15px 80px;
     border-radius: 30px;
     font-weight: 500;
@@ -247,10 +247,16 @@ ul li a {
     .first-head {
         display: flex;
         flex-direction: row;
+        
     }
     
     .first-head p {
         margin-right: 12px;
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 65.5px; /* 119.091% */
+        letter-spacing: 0.2px;
     }
 
     .first-head p:last-child {
@@ -259,7 +265,7 @@ ul li a {
 
     #screen {
         width: 100%;
-        max-width: 680px;
+        max-width: 1000px;
     }
 }
 

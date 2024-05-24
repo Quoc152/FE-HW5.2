@@ -27,6 +27,7 @@ body {
   font-weight: 500;
   gap: 10px;
   white-space: nowrap;
+  cursor: pointer;
 }
   
 .sign-up-5 {
@@ -38,6 +39,10 @@ body {
   align-items: center;
   padding: 25px 60px;
   box-sizing: border-box;
+}
+
+.sign-up-5:hover {
+  background-color: #1ae0fa;
 }
   
 .find-out-5 {
@@ -52,6 +57,10 @@ body {
   padding: 25px 68px;
   color: #4fd1c5;
 }
+
+.find-out-5:hover {
+  background-color: #f6f6f6;
+}
   
 #pic5 {
   max-width: 400px;
@@ -62,8 +71,16 @@ body {
 .headline-5 {
   text-align: center;
   overflow: hidden;
-  font-size: large;
   line-height: 1;
+}
+
+.headline-5 h1 {
+  font-size: 46px;
+font-style: normal;
+font-weight: 500;
+line-height: 57px; /* 123.913% */
+letter-spacing: 0.2px;
+margin: 0;
 }
   
 .paragraphe-5 p {
@@ -72,8 +89,12 @@ body {
   text-align: center;
   overflow: hidden;
   padding: 30px 10px;
-  color: #a0aec0;
-  line-height: 1.5;
+  color: #A0AEC0;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+  letter-spacing: 0.2px;
 }
 
 @media (min-width: 768px) {
@@ -112,11 +133,11 @@ body {
   
   .paragraphe-5 p {
     margin: 0 0 0 80px;
-    padding: 30px 0 30px 0;
+    padding: 30px 30px 0 0;
     text-align: left;
+    height: auto;
   }
   
-
   #pic5 {
     max-width: 900px;
     width: 100%;
