@@ -126,13 +126,16 @@ ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: aliceblue;
-    font-size: 45px;
-    font-weight: 500;
     margin-bottom: 15px;
 }
 
 .headline p,.first-head p {
+    color: aliceblue;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57px; /* 123.913% */
+    letter-spacing: 0.2px;
     margin: 0;
 }
 
@@ -145,7 +148,7 @@ ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgba(240, 248, 255, 0.845);
+    color: #E5E5E5;
     font-weight: 600;
     margin-top: 15px;
 }
@@ -281,10 +284,9 @@ ul li a {
     .first-head {
         display: flex;
         flex-direction: row;
-        
     }
     
-    .first-head p {
+    .headline p, .first-head p {
         margin-right: 12px;
         font-size: 55px;
         font-style: normal;
