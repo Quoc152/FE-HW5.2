@@ -65,7 +65,7 @@ ul li a {
 .sign-bt {
     color: var(--light-text);
     border: 1px solid var(--light-text);
-    border-radius: 30px;
+    border-radius: var(--button-radius);
     padding: 15px 30px;
     display: flex;
     justify-content: center;
@@ -166,7 +166,7 @@ ul li a {
     border: 1px solid var(--light-text);
     cursor: pointer;
     padding: 15px 80px;
-    border-radius: 30px;
+    border-radius: var(--button-radius);
     font-weight: var(--third-weight);
     margin: 15px 0;
 }
@@ -297,7 +297,7 @@ ul li a {
         font-size: var(--first-head-size);
         font-style: var(--font-style);
         font-weight: var(--first-weight);
-        line-height: 65.5px; /* 119.091% */
+        line-height: var(--main-head-height); /* 119.091% */
         letter-spacing: var(--letter-spacing);
     }
 

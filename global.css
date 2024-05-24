@@ -10,7 +10,12 @@
     --first-subhead-size: 16px; 
 
     --para-size: 18px;
+    --para-size2: 20px;
     --link-size: 15px;
+
+    --first-icon-size: 50px;
+    --second-icon-size: 70px;
+    --third-icon-size: 65px;
 
     /* Font Weight */
     --first-weight: 900;
@@ -22,13 +27,16 @@
     --font-style: normal;
 
     /* Line height */
+    --main-head-height: 65.5px;
     --first-height: 57px;
     --second-height: 33px;
     --third-height: 27px;
     --fourth-height: 20px;
+    --fifth-height:18px;
 
     /* Letter Spacing */
     --letter-spacing: 0.2px;
+    --letter-spacing2: 0.1px;
 
     /* Background Color */
     --dark-background: linear-gradient(231deg, #CB1AE8 -0.37%, #37BDA6 100%);
@@ -54,4 +62,20 @@
     --active-color: #17c7de;
     --active-color2: #dadada;
     --active-color3: rgb(150, 150, 150);
+
+    /* Border */
+    --button-radius: 39px;
+    --block-radius: 10px;
+    --input-text-radius: 6px;
+    --img-radius: 5px;
+    --img-map-radius: 22px;
+
+    /* Icon */
+    --icon-size: 30px;
+    --icon-size2: 40px;
+
+    /* Screen */
+    --screen-size: 523px;
+    --screen-size2: 768px;
+    --screen-size3: 1060px;
 }

@@ -39,7 +39,7 @@ body {
     
   .sign-up-4 {
     box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
-    border-radius: 39px;
+    border-radius: var(--button-radius);
     background-color: var(--secondary);
     overflow: hidden;
     flex-direction: row;
@@ -58,7 +58,7 @@ body {
     
   .find-out-4 {
     box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
-    border-radius: 39px;
+    border-radius: var(--button-radius);
     background-color: var(--light-background);
     border: 1px solid var(--primary);
     box-sizing: border-box;

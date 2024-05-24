@@ -53,7 +53,7 @@ body {
     background: #EFEFEF;
     border: 1px solid #D0D0D0;
     font-size: var(--link-size);
-    border-radius: 6px;
+    border-radius: var(--input-text-radius);
     padding: 20px 100px;
 }
 
@@ -63,8 +63,8 @@ body {
 
 .email-input-7::placeholder {
     font-size: 14px; 
-    font-weight: bold; 
-    color: #999;
+    font-weight: var(--second-weight); 
+    color: var(--second-text);
 }
 
 
@@ -79,7 +79,7 @@ body {
     font-weight: var(--third-weight);
     line-height: 16px;
     letter-spacing: var(--letter-spacing); 
-    border-radius: 5px;
+    border-radius: var(--button-radius);
     padding: 20px 100px;
     box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
@@ -100,7 +100,7 @@ body {
     align-items: center; 
     text-align: center; 
     background-color: rgba(34, 49, 64, 0.998);
-    color: white;
+    color: var(--light-text);
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -135,7 +135,7 @@ body {
 #pic-7 {
     width: 100%;
     max-width: 300px;
-    border-radius: 25px;
+    border-radius: var(--img-map-radius);
     cursor: alias;
 }
 
@@ -156,7 +156,7 @@ body {
 }
 
 i {
-    font-size: 30px;
+    font-size: var(--icon-size);
 }
 
 .info-7, .main2-7, .itemslist-7, 
@@ -179,14 +179,14 @@ i {
     }
 
     .email-input-7 {
-        font-size: 20px;
+        font-size: var(--para-size2);
         padding: 15px 40px;
     }
 
     .button-sup-7 {
         margin-left: 10px;
         padding: 15px 45px;
-        border-radius: 30px;
+        border-radius: var(--button-radius);
         font-size: large;
     }
 
