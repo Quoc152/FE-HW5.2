@@ -94,6 +94,10 @@ body {
   .button3:hover {
     background-color: #1ae0fa;
   }
+
+  .button3:active {
+    background-color: #17c7de;
+  }
     
   #pic3 {
     max-width: 400px;

@@ -49,6 +49,10 @@ body {
   .sign-up-4:hover {
     background-color: #1ae0fa;
   }
+
+  .sign-up-4:active {
+    background-color: #17c7de;
+  }
     
   .find-out-4 {
     box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
@@ -65,6 +69,10 @@ body {
 
   .find-out-4:hover {
     background-color: #f6f6f6;
+  }
+
+  .find-out-4:active {
+    background-color: #dadada;
   }
     
   #pic4 {

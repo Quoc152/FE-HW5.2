@@ -73,6 +73,16 @@ ul li a {
     cursor: pointer;
 }
 
+.sign-bt:hover {
+    color: rgb(224, 224, 224);
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.sign-bt:active {
+    color: rgb(168, 168, 168);
+    border: 1px solid rgb(168, 168, 168);
+}
+
 .list-icon {
     display: block; /* Hiển thị icon trên mobile */
     font-size: 2em;
@@ -91,7 +101,11 @@ ul li a {
 }
 
 #list-icon:hover {
-    background: rgba(204, 204, 204, 0.612);
+    color: rgb(255, 255, 255);
+}
+
+#list-icon:active {
+    color: rgb(192, 192, 192);
 }
 
 .mobile-dv {
@@ -152,8 +166,28 @@ ul li a {
     background-color: aliceblue;
 }
 
+.start-button:hover {
+    background-color: rgb(224, 224, 224);
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.start-button:active {
+    background-color: rgb(168, 168, 168);
+    border: 1px solid rgb(168, 168, 168);
+}
+
 .try-button{
     color: aliceblue;
+}
+
+.try-button:hover {
+    color: rgb(224, 224, 224);
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.try-button:active {
+    color: rgb(168, 168, 168);
+    border: 1px solid rgb(168, 168, 168);
 }
 
 #screen {

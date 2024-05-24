@@ -172,6 +172,10 @@ letter-spacing: 0.2px;
     background-color: #1ae0fa;
 }
 
+.button-bl1-6:active, .button-bl2-6:active, .button-bl3-6:active{
+    background-color: #17c7de;
+}
+
 @media (min-width: 1060px) {
     .bigheadline-6 {
         max-width: 700px;

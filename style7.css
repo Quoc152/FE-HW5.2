@@ -11,6 +11,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 1px solid #CDCDCD;
 }
 
 .main1-7 {
@@ -85,6 +86,10 @@ body {
     background-color: #1ae0fa;
 }
 
+.button-sup-7:active {
+    background-color: #17c7de;
+}
+
 .main2-7 {
     display: flex;
     flex-direction: column;
@@ -128,6 +133,7 @@ body {
     width: 100%;
     max-width: 300px;
     border-radius: 25px;
+    cursor: alias;
 }
 
 .icon-7 {
