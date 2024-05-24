@@ -97,6 +97,10 @@ body {
         font-size: var(--third-head-size);
     }
 
+    .head-bl1-2 h3, .head-bl2-2 h3, .head-bl3-2 h3{
+        margin: 0;
+    }
+
     .icon-bl1-2, .icon-bl2-2, .icon-bl3-2 {
         font-size: 70px;
     }
