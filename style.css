@@ -47,15 +47,19 @@ ul li {
     margin: 10px 0;
 }
 
-ul li:hover {
+/* ul li:hover {
     background: var(--ul-hover-color);
-}
+} */
 
 ul li a {
     color: var(--light-text);
     text-decoration: none;
     display: block;
     padding: 10px 0;
+}
+
+ul li a:hover {
+    color: var(--ul-hover-color);
 }
 
 .menu-list{
