@@ -139,7 +139,7 @@ body {
   .headline-5 {
     text-align: left;
     margin-left: 80px;
-    font-size: x-large;
+    font-size: var(--second-head-size);
   }
   
   .paragraphe-5 p {

@@ -77,7 +77,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: var(--first-subhead-size);
     color: var(--light-text);
     position: relative;
     letter-spacing: var(--letter-spacing);

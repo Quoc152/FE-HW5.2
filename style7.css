@@ -62,7 +62,7 @@ body {
 }
 
 .email-input-7::placeholder {
-    font-size: 14px; 
+    font-size: var(--link-size); 
     font-weight: var(--second-weight); 
     color: var(--second-text);
 }
