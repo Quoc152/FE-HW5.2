@@ -154,7 +154,7 @@ body {
     }
 
     .headline-4 {
-        font-size: x-large;
+        font-size: var(--second-head-size);
         flex-direction: row;
         gap: 0;
     }
