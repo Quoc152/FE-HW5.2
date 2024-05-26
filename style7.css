@@ -24,6 +24,7 @@ body {
     text-align: center;
     height: 55vh; 
     margin: 0 auto; 
+    gap: 20px;
 }
 
 .headline-7 {  
@@ -37,7 +38,7 @@ body {
 }
 
 .para1-7, .info-7 {
-    margin: 25px;
+    margin: 0;
 }
 
 .para1-7 {
@@ -54,7 +55,7 @@ body {
     border: 1px solid #D0D0D0;
     font-size: var(--link-size);
     border-radius: var(--input-text-radius);
-    padding: 20px 100px;
+    padding: 20px 80px;
 }
 
 .email-input-7:hover {
@@ -80,7 +81,7 @@ body {
     line-height: 16px;
     letter-spacing: var(--letter-spacing); 
     border-radius: var(--block-radius);
-    padding: 20px 100px;
+    padding: 20px 80px;
     box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
