@@ -287,7 +287,6 @@ ul li a:hover {
     }
     
     .headline p {
-        margin-right: 12px;
         font-size: var(--first-head-size);
         font-style: var(--font-style);
         font-weight: var(--first-weight);
