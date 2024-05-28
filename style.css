@@ -127,15 +127,17 @@ ul li a:hover {
     margin: 30px 0;
 }
 
-.headline,.first-head {
+.headline {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin-bottom: 15px;
+    max-width: 650px;
 }
 
-.headline p,.first-head p {
+.headline p {
     color: var(--light-text);
     font-size: var(--second-head-size);
     font-style: var(--font-style);
@@ -160,6 +162,7 @@ ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin-top: 15px;
 }
 
@@ -238,7 +241,7 @@ ul li a:hover {
         display: none;
     }
 
-    .headline,.first-head {
+    .headline {
         font-size: var(--first-head-size);
     }
 
@@ -251,14 +254,6 @@ ul li a:hover {
         display: flex;
         flex-direction: row;
         font-size: var(--para-size);
-    }
-    
-    .para p {
-        margin-right: 5px;
-    }
-
-    .para p:last-child {
-        margin-right: 0;
     }
 
     #screen {
@@ -287,26 +282,17 @@ ul li a:hover {
         margin-top: 50px;
     }
 
-    .headline,.first-head {
+    .headline {
         font-weight: bold;
     }
-
-    .first-head {
-        display: flex;
-        flex-direction: row;
-    }
     
-    .headline p, .first-head p {
+    .headline p {
         margin-right: 12px;
         font-size: var(--first-head-size);
         font-style: var(--font-style);
         font-weight: var(--first-weight);
         line-height: var(--main-head-height); /* 119.091% */
         letter-spacing: var(--letter-spacing);
-    }
-
-    .first-head p:last-child {
-        margin-right: 0;
     }
 
     #screen {
